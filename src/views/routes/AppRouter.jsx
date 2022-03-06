@@ -3,7 +3,7 @@ import { AllRoutes } from "./Routes";
 
 const AppRouter = () => {
   return (
-    <Suspense fallback={<></>}>
+    <Suspense fallback={<>cargando...</>}>
       <AllRoutes />
     </Suspense>
   );

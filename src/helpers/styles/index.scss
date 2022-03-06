@@ -1,0 +1,7 @@
+@import "./theme.scss";
+
+button:disabled,
+.btn:disabled {
+  cursor: not-allowed;
+  pointer-events: all;
+}

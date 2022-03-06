@@ -1,7 +1,7 @@
 import React, { lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 
-const Login = lazy(() => import("../auth/Login"));
+const Login = lazy(() => import("../auth/components/Login"));
 const Home = lazy(() => import("../home/Home"));
 const NotFoundPage = lazy(() => import("../layout/NotFoundPage"));
 
